@@ -29,17 +29,6 @@ app.get('/', (req, res) => {
     res.send('<h1>Alex Server</h1>')
 })
 
-// Get all projects
-app.get('/projects', (req, res) => {
-    fs.readFile('./data/projects.json', 'utf8', (err, data) => {
-        if (err) {
-            console.log(err);
-            return res.send('error reading projects')
-        }
-        res.json(JSON.parse(data))
-    })
-})
-
 
 // Get all instructions
 app.get('/projects/instructions', (req, res) => {
@@ -51,6 +40,7 @@ app.get('/projects/instructions', (req, res) => {
         res.json(JSON.parse(data))
     })
 })
+
 
 // Get a single instruction by ID
 app.get('/projects/instructions/:InstructionId', (req, res) => {
@@ -64,6 +54,20 @@ app.get('/projects/instructions/:InstructionId', (req, res) => {
         res.json(selectedInstruction);
     })
 })
+
+
+// Get all PDF files
+app.get('/public', (req, res) => {
+    fs.readFile('./data/instructions.json', 'utf8', (err, data) => {
+        if (err) {
+            console.log(err);
+            return res.send('error reading instructions')
+        }
+        res.json(JSON.parse(data))
+    })
+})
+
+
 
 // Post a new instruction
 app.post('/projects/instructions', upload.single('file'), (req, res) => {
@@ -81,7 +85,7 @@ app.post('/projects/instructions', upload.single('file'), (req, res) => {
             createdBy: req.body.createdBy,
             trade: req.body.trade,
             dateIssued: new Date().toLocaleDateString(),
-            path: `http://localhost:8080/public/${req.file.filename}/`
+            path: `http://localhost:8080/${req.file.filename}`
         }
 
         instructions.push(newInstruction);
