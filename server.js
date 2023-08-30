@@ -15,7 +15,7 @@ app.use(express.static('public'));
 // middleware to upload PDF files
 const storage = multer.diskStorage({
     destination: function(req, file, cb) {
-        return cb(null, './public/Instructions')
+        return cb(null, './public')
         console.log(cb);
     },
     filename: function (req, file, cb) {
@@ -29,9 +29,20 @@ app.get('/', (req, res) => {
     res.send('<h1>Alex Server</h1>')
 })
 
+// Get all projects
+app.get('/projects', (req, res) => {
+    fs.readFile('./data/projects.json', 'utf8', (err, data) => {
+        if (err) {
+            console.log(err);
+            return res.send('error reading projects')
+        }
+        res.json(JSON.parse(data))
+    })
+})
+
 
 // Get all instructions
-app.get('/instructions', (req, res) => {
+app.get('/projects/instructions', (req, res) => {
     fs.readFile('./data/instructions.json', 'utf8', (err, data) => {
         if (err) {
             console.log(err);
@@ -41,22 +52,21 @@ app.get('/instructions', (req, res) => {
     })
 })
 
-
 // Get a single instruction by ID
-app.get('/instructions/:id', (req, res) => {
+app.get('/projects/instructions/:InstructionId', (req, res) => {
     fs.readFile('./data/instructions.json', 'utf8', (err, data) => {
         if(err) {
             return res.send("error getting instruction with id" + req.params.id);
         }
         // search array for instruction with matching id
         const instructions = JSON.parse(data);
-        const foundInstruction = instructions.find(instruction => instruction.id === req.params.id);
-        res.json(foundInstruction);
+        const selectedInstruction = instructions.find(instruction => instruction.id === req.params.id);
+        res.json(selectedInstruction);
     })
 })
 
-
-app.post('/instructions', upload.single('file'), (req, res) => {
+// Post a new instruction
+app.post('/projects/instructions', upload.single('file'), (req, res) => {
 
     fs.readFile('./data/instructions.json', 'utf8', (err, data) => {
         if (err) {
@@ -70,7 +80,8 @@ app.post('/instructions', upload.single('file'), (req, res) => {
             title: req.body.title,
             createdBy: req.body.createdBy,
             trade: req.body.trade,
-            dateIssued: new Date().toLocaleDateString()
+            dateIssued: new Date().toLocaleDateString(),
+            path: `http://localhost:8080/public/${req.file.filename}/`
         }
 
         instructions.push(newInstruction);
@@ -81,9 +92,15 @@ app.post('/instructions', upload.single('file'), (req, res) => {
                 return res.send('error saving new Instruction');
             }
             res.json(newInstruction);
+            console.log(newInstruction);
         })
     })
 })
+
+
+
+
+
 
 
 app.listen(port, () => {
