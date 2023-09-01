@@ -85,6 +85,9 @@ app.post('/projects/instructions', upload.single('file'), (req, res) => {
             createdBy: req.body.createdBy,
             trade: req.body.trade,
             dateIssued: new Date().toLocaleDateString(),
+            status: req.body.status,
+            type: req.body.type,
+            costImpact: req.body.costImpact,
             path: `http://localhost:8080/${req.file.filename}`
         }
 

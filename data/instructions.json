@@ -2,28 +2,25 @@
   {
     "id": "f5f3f350-b853-48a6-b5aa-25ceb96407d5",
     "number": "100",
+    "title": "Value Engineering for building envelope",
+    "createdBy": "PDF is opening",
+    "trade": "PDF is opening",
+    "dateIssued": "2023-08-29",
+    "status": "Open",
+    "type": "Residential",
+    "costImpact": "TBD",
+    "path": "http://localhost:8080/1693374197529_Alex_Negredo.pdf"
+  },
+  {
+    "id": "20c491d1-8ce1-4ca7-819d-84c9c89b6f39",
+    "number": "100",
     "title": "PDF is opening",
     "createdBy": "PDF is opening",
     "trade": "PDF is opening",
     "dateIssued": "2023-08-29",
-    "path": "http://localhost:8080/1693374197529_Alex_Negredo.pdf"
-  },
-  {
-    "id": "3f72837a-bf2a-4395-9591-3b42117cd65b",
-    "number": "101",
-    "title": "alex",
-    "createdBy": "alex",
-    "trade": "alex",
-    "dateIssued": "2023-08-29",
-    "path": "http://localhost:8080/c6d57f84-a219-4099-8dc3-d12b690d8d09"
-  },
-  {
-    "id": "20c491d1-8ce1-4ca7-819d-84c9c89b6f39",
-    "number": "102",
-    "title": "letter",
-    "createdBy": "alex",
-    "trade": "PDF is opening",
-    "dateIssued": "2023-08-29",
+    "status": "Open",
+    "type": "Residential",
+    "costImpact": "TBD",
     "path": "http://localhost:8080/1693375787934_letter.pdf"
   }
 ]
