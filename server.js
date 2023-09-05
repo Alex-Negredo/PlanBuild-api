@@ -29,36 +29,109 @@ app.get('/', (req, res) => {
     res.send('<h1>Alex Server</h1>')
 })
 
-
-// Get all instructions
-app.get('/projects/instructions', (req, res) => {
-    fs.readFile('./data/instructions.json', 'utf8', (err, data) => {
+// Get all the projects OK
+app.get('/projects', (req, res) => {
+    fs.readFile('./data/projects.json', 'utf8', (err, data) => {
         if (err) {
-            console.log(err);
-            return res.send('error reading instructions')
+            console.error('Error reading projects:', err);
+            return res.status(500).json({ error: 'Internal Server Error' });
         }
-        res.json(JSON.parse(data))
+        const projects = JSON.parse(data);
+        res.json(projects);
+        console.log('Success getting projects');
     })
 })
 
-
-// Get a single instruction by ID
-app.get('/projects/instructions/:InstructionId', (req, res) => {
-    fs.readFile('./data/instructions.json', 'utf8', (err, data) => {
+// Get a single project by ID OK
+app.get('/projects/:projectId', (req, res) => {
+    fs.readFile('./data/projects.json', 'utf8', (err, data) => {
         if(err) {
-            return res.send("error getting instruction with id" + req.params.id);
+            return res.send("error getting project with id" + req.params.projectId);
         }
-        // search array for instruction with matching id
-        const instructions = JSON.parse(data);
-        const selectedInstruction = instructions.find(instruction => instruction.id === req.params.id);
+        // search array for project with matching id
+        const projects = JSON.parse(data); // Getting the whole array from './data/projects.json', defining as 'projects' and parsing the JSON data.
+        const selectedProject = projects.find(project => project.id == req.params.projectId);
+        res.json(selectedProject);
+    })
+})
+
+// Get all the instructions from a single project OK
+app.get('/projects/:projectId/instructions', (req, res) => {
+    fs.readFile('./data/projects.json', 'utf8', (err, data) => {
+        if (err) {
+          console.error('Error reading the file:', err);
+          return res.status(500).json({ error: 'Internal Server Error' });
+        }
+        // Getting the whole array from './data/projects.json', defining as 'projects' and parsing the JSON data.
+        const projects = JSON.parse(data);
+
+        // Find the project with the specified ID
+        const selectedProject = projects.find(project => project.id == req.params.projectId);
+        // Retrieve and return the instructions for the project
+        const allInstructions = selectedProject.instructions;
+        res.json(allInstructions);
+    })
+})
+
+// Get a single instruction from a single project
+app.get('/projects/:projectId/instructions/:instructionId', (req, res) => {
+    fs.readFile('./data/projects.json', 'utf8', (err, data) => {
+        if (err) {
+          console.error('Error reading the file:', err);
+          return res.status(500).json({ error: 'Internal Server Error' });
+        }
+        // Getting the whole array from './data/projects.json', defining as 'projects' and parsing the JSON data.
+        const projects = JSON.parse(data);
+
+        // Find the project with the specified ID
+        const selectedProject = projects.find(project => project.id == req.params.projectId);
+        const allInstructions = selectedProject.instructions;
+        // Find the instruction with the specified ID
+        const selectedInstruction = allInstructions.find(instruction => instruction.id == req.params.InstructionId);
         res.json(selectedInstruction);
+    })
+})
+
+// Get all the spces from a single project
+app.get('/projects/:projectId/specifications', (req, res) => {
+    fs.readFile('./data/projects.json', 'utf8', (err, data) => {
+        if (err) {
+          console.error('Error reading the file:', err);
+          return res.status(500).json({ error: 'Internal Server Error' });
+        }
+        // Getting the whole array from './data/projects.json', defining as 'projects' and parsing the JSON data.
+        const projects = JSON.parse(data);
+
+        // Find the project with the specified ID
+        const selectedProject = projects.find(project => project.id == req.params.projectId);
+        // Retrieve and return the instructions for the project
+        const specifications = selectedProject.specifications;
+        res.json(specifications);
+    })
+})
+
+// Get a single spec from a single project
+app.get('/projects/:projectId/specifications/:specificationId', (req, res) => {
+    fs.readFile('./data/projects.json', 'utf8', (err, data) => {
+        if (err) {
+          console.error('Error reading the file:', err);
+          return res.status(500).json({ error: 'Internal Server Error' });
+        }
+        // Getting the whole array from './data/projects.json', defining as 'projects' and parsing the JSON data.
+        const projects = JSON.parse(data);
+
+        // Find the project with the specified ID
+        const selectedProject = projects.find(project => project.id == req.params.projectId);
+        // Find the instruction with the specified ID
+        const selectedSpecification = selectedProject.specifications.find(specifications => specifications.id == req.params.specificationId);
+        res.json(selectedSpecification);
     })
 })
 
 
 // Get all PDF files
 app.get('/public', (req, res) => {
-    fs.readFile('./data/instructions.json', 'utf8', (err, data) => {
+    fs.readFile('./data/projects.json', 'utf8', (err, data) => {
         if (err) {
             console.log(err);
             return res.send('error reading instructions')
@@ -70,13 +143,17 @@ app.get('/public', (req, res) => {
 
 
 // Post a new instruction
-app.post('/projects/instructions', upload.single('file'), (req, res) => {
+app.post('/projects/:projectId/instructions', upload.single('file'), (req, res) => {
+    const projectId = req.params.projectId;
 
-    fs.readFile('./data/instructions.json', 'utf8', (err, data) => {
+    fs.readFile('./data/projects.json', 'utf8', (err, data) => {
         if (err) {
             res.send('error uploading Instruction, please try again');
         }
-        const instructions = JSON.parse(data);
+        const projects = JSON.parse(data);
+
+        // Find the project with the matching projectId
+        const selectedProject = projects.find((project) => project.id == projectId);
 
         const newInstruction = {
             id: uuidv4(),
@@ -90,9 +167,9 @@ app.post('/projects/instructions', upload.single('file'), (req, res) => {
             path: `http://localhost:8080/${req.file.filename}`
         }
 
-        instructions.push(newInstruction);
+        selectedProject.instructions.push(newInstruction);
 
-        fs.writeFile('./data/instructions.json', JSON.stringify(instructions), (err) => {
+        fs.writeFile('./data/projects.json', JSON.stringify(projects), (err) => {
             if(err) {
                 console.error(err);
                 return res.send('error saving new Instruction');
