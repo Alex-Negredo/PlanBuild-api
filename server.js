@@ -68,7 +68,7 @@ app.get('/projects/:projectId/instructions', (req, res) => {
         // Find the project with the specified ID
         const selectedProject = projects.find(project => project.id == req.params.projectId);
         // Retrieve and return the instructions for the project
-        const allInstructions = selectedProject.instructions;
+        const allInstructions = selectedProject?.instructions;
         res.json(allInstructions);
     })
 })
@@ -105,8 +105,8 @@ app.get('/projects/:projectId/specifications', (req, res) => {
         // Find the project with the specified ID
         const selectedProject = projects.find(project => project.id == req.params.projectId);
         // Retrieve and return the instructions for the project
-        const specifications = selectedProject.specifications;
-        res.json(specifications);
+        const allSpecifications = selectedProject.specifications;
+        res.json(allSpecifications);
     })
 })
 
