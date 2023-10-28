@@ -1,1 +1,699 @@
-[{"id":1800,"name":"Park George","city":"Seattle","address":"13768 100 Ave","status":"Active","progress":"83%","type":"Residential","drawings":"http://localhost:8080/Park-George-Drawings.pdf","instructions":[{"id":"f5f3f350-b853-48a6-b5aa-25ceb9641800","number":"345","title":"Value Engineering for building envelope","createdBy":"Arnold Brunn","trade":"Glazing","dateIssued":"2023-08-29","status":"Open","type":"Residential","costImpact":"TBD","path":"http://localhost:8080/1693374197529_Alex_Negredo.pdf"},{"id":"20c491d1-8ce1-4ca7-819d-84c9c89b6f39","number":"158","title":"Shaft changes on parkade level P1","createdBy":"Rhodora Chavez","trade":"Insulation","dateIssued":"2023-08-29","status":"Open","type":"Residential","costImpact":"TBD","path":"http://localhost:8080/1693648616531_Template.pdf"},{"id":"9a925d20-9fc2-480a-abba-c0884384d6f0","number":"836","title":"Mechanical Revisions on L2","createdBy":"Dave Macdonald","trade":"Mechanical","dateIssued":"2023-09-02","status":"Work Required","type":"Commercial","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"10cfd558-97ae-4535-85cb-cd710b2f33e8","number":"004","title":"Electrical Changes from L30 to L45","createdBy":"Teresa Speicher","trade":"Electrical","dateIssued":"2023-09-02","status":"Pending","type":"Residential","path":"http://localhost:8080/1693648616531_Template.pdf"},{"id":"8294b909-7a4e-41cd-95bc-071beac4eedf","number":"209","title":"Wall type revisions","createdBy":"John Rosset","trade":"Drywall","dateIssued":"2023-09-04","status":"In review","type":"Residential","path":"http://localhost:8080/1693890225062_Template.pdf"},{"id":"9a925d20-9fc2-480a-abba-c0884384r6f0","number":"103","title":"Mechanical Revisions on L2","createdBy":"Dave Macdonald","trade":"Mechanichal","dateIssued":"2023-09-02","status":"Work Required","type":"Commercial","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"7f4d6e30-3f7a-4a49-a458-8e2533b9321d","number":"215","title":"Electrical Repairs on Floor 3","createdBy":"Emily Johnson","trade":"Electrical","dateIssued":"2023-08-28","status":"In Progress","type":"Commercial","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"3b9d823d-7a90-4e7e-bcd6-93573c5a7c9a","number":"301","title":"Plumbing Upgrades in Kitchen","createdBy":"Michael Smith","trade":"Plumbing","dateIssued":"2023-09-05","status":"Work Required","type":"Residential","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"e9b68c74-fa77-4ea2-8d49-f9c18e2d1a9f","number":"128","title":"HVAC Maintenance in Office Building","createdBy":"Sarah Davis","trade":"HVAC","dateIssued":"2023-08-30","status":"Completed","type":"Commercial","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"c24d3f9a-5b82-42a3-baa5-9ff8d31a8895","number":"502","title":"Structural Repairs on Bridge","createdBy":"John Anderson","trade":"Civil Engineering","dateIssued":"2023-09-01","status":"Work Required","type":"Industrial","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"93a8c9ef-7f14-4aac-91f7-dccfc6b72b28","number":"1008","title":"1008","createdBy":"1008","trade":"1008","dateIssued":"2023-09-09","status":"1008","type":"","path":"http://localhost:8080/1694282520828_mockup 02.pdf"},{"id":"bcde483c-e02f-476d-b50f-2f18237333fb","number":"555","title":"555","createdBy":"555","trade":"555","dateIssued":"2023-09-14","status":"555","type":"555","path":"http://localhost:8080/1694740313289_mockup 02.pdf"}],"specifications":[{"id":"f5f3f350-b853-48a6-b5ba-18ceb9641800","number":"100.001","title":"Gypsum Board","division":"Finishes","revision":"Rev 2","dateIssued":"2023-08-29","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"f5f3f150-b855-48a6-b5ba-21ceb96407d6","number":"100.002","title":"Fibre Glass Foam","division":"Insulation","revision":"Rev 5","dateIssued":"2023-08-29","path":"http://localhost:8080/1693374197531_Alex_Negredo.pdf"},{"id":"8d48e182-7e18-4a82-8bb6-025f04962c70","number":"100.002","title":"Ceramic Tile","division":"Finishes","revision":"Rev 1","dateIssued":"2023-09-01","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"b9cd920a-82c5-4e09-a5a8-124bc1f6be23","number":"200.001","title":"Concrete Foundations","division":"Concrete","revision":"Rev 3","dateIssued":"2023-09-02","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"19d153a4-5b2e-45b9-953e-1d60d9d7d21f","number":"300.001","title":"Structural Steel","division":"Metals","revision":"Rev 2","dateIssued":"2023-09-03","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"4fde0f5e-5f12-4c11-bf6a-2ad72ed61e9f","number":"400.001","title":"Wood Framing","division":"Wood and Composites","revision":"Rev 1","dateIssued":"2023-09-04","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"aa4e58c7-794e-4fb4-b7ec-2f937bf19f0e","number":"500.001","title":"Thermal Insulation","division":"Moisture Protection","revision":"Rev 1","dateIssued":"2023-09-05","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"6abcb801-0f0d-48e9-b4ca-3d5403f9a1f2","number":"600.001","title":"Fire Protection","division":"Fire Suppression","revision":"Rev 2","dateIssued":"2023-09-06","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"8ea9e4c0-50a0-43f1-b7d0-45731ad24a1b","number":"700.001","title":"Exterior Finish","division":"Exterior Finish","revision":"Rev 1","dateIssued":"2023-09-07","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"}]},{"id":1801,"name":"Emerald Gardens","city":"Vancouver","address":"1111 Barclay St","status":"Active","progress":"52%","type":"Residential","drawings":"http://localhost:8080/Park-George-Drawings.pdf","instructions":[{"id":"fae43bb6-d5d1-4f86-8b15-9a9928d1e19d","number":"520","title":"Renovations in Public Library","createdBy":"Emily Adams","trade":"Construction","dateIssued":"2023-09-07","status":"In Progress","type":"Public","path":"http://localhost:8080/1693374197529_Alex_Negredo.pdf"},{"id":"87b4d623-8ccf-48c7-94f6-e5ae9ce14c14","number":"712","title":"Roof Repairs in Warehouse","createdBy":"John Smith","trade":"Roofing","dateIssued":"2023-09-08","status":"Work Required","type":"Industrial","path":"http://localhost:8080/1693648616531_Template.pdf"},{"id":"9a925d20-9fc2-480a-abba-c088g384d6f0","number":"103","title":"Mechanical Revisions on L2","createdBy":"Dave Macdonald","trade":"Mech Trade","dateIssued":"2023-09-02","status":"Work Required","type":"Commercial","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"10cfd558-97ae-4535-85cb-cd710b2f33e8","number":"105","title":"Electrical Changes from L30 to L45","createdBy":"Teresa Speicher","trade":"Electrical Trade","dateIssued":"2023-09-02","status":"Pending","type":"Residential","path":"http://localhost:8080/1693648616531_Template.pdf"},{"id":"1c7b9e06-50b1-4751-89e9-52786bfecf69","number":"712","title":"Roof Replacement for Residential Complex","createdBy":"Laura Wilson","trade":"Roofing","dateIssued":"2023-08-27","status":"In Progress","type":"Residential","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"f9b18738-7c1e-4b1b-9d91-199874a857e7","number":"409","title":"Interior Renovations in Retail Store","createdBy":"Chris Brown","trade":"Interior Design","dateIssued":"2023-09-03","status":"Work Required","type":"Commercial","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"a76220f0-6a9a-4cd3-95e4-8a10b8e9c557","number":"624","title":"Landscaping in Park","createdBy":"Jennifer Taylor","trade":"Landscaping","dateIssued":"2023-08-29","status":"Completed","type":"Public","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"af89a28a-8e4f-419e-8da7-3a74c101bf14","number":"815","title":"Kitchen Remodel in Residential Home","createdBy":"Daniel White","trade":"Construction","dateIssued":"2023-09-04","status":"In Progress","type":"Residential","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"5ce7c421-8b32-4b9d-9c34-6f83a88a8395","number":"207","title":"Office Partition Installation","createdBy":"Mary Johnson","trade":"Interior Design","dateIssued":"2023-08-31","status":"Completed","type":"Commercial","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"8f2cf8b5-63dd-4426-bdc6-cd3a70d7ebd3","number":"912","title":"Bathroom Renovations in Hotel","createdBy":"David Miller","trade":"Plumbing","dateIssued":"2023-09-06","status":"Work Required","type":"Hospitality","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"2c3d4e58-f23a-4d1f-8d84-eb21e9fc7bf4","number":"601","title":"Painting Project in Art Gallery","createdBy":"Susan Johnson","trade":"Painting","dateIssued":"2023-08-26","status":"Completed","type":"Commercial","path":"http://localhost:8080/1693645345765_Template.pdf"}],"specifications":[{"id":"9c1a75f3-4a3c-4ea9-9a9c-98d1f6e6e7a5","number":"1400.001","title":"Elevators","division":"Elevators","revision":"Rev 2","dateIssued":"2023-09-13","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"50c0ad94-1db1-4e11-baeb-2e4f91300b76","number":"1500.001","title":"HVAC Systems","division":"HVAC","revision":"Rev 1","dateIssued":"2023-09-14","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"b996f1c0-69a3-434b-af1a-0ee3b5abf2d9","number":"1600.001","title":"Security Systems","division":"Security","revision":"Rev 2","dateIssued":"2023-09-15","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"ee841f68-10ea-47f1-9384-e7f596d69a9b","number":"1700.001","title":"Fire Alarm Systems","division":"Fire Alarm","revision":"Rev 1","dateIssued":"2023-09-16","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"01bb8d7c-103c-48b2-a42b-874bded84a3d","number":"1800.001","title":"Communication Systems","division":"Communication","revision":"Rev 2","dateIssued":"2023-09-17","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"2c79d890-1415-45a5-bec4-78e4a369a66a","number":"1900.001","title":"Audiovisual Systems","division":"Audiovisual","revision":"Rev 1","dateIssued":"2023-09-18","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"4e161d9e-845e-4949-9616-d866345a9e8b","number":"2000.001","title":"Plumbing Fixtures","division":"Plumbing Fixtures","revision":"Rev 2","dateIssued":"2023-09-19","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"6c8a1eac-2a85-464e-9f7b-87a6dd719e3e","number":"2100.001","title":"Gas Distribution","division":"Gas Distribution","revision":"Rev 1","dateIssued":"2023-09-20","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"8c08b1ba-1ce5-4cfd-b7cb-2b0fb71a9b5b","number":"2200.001","title":"Heating Equipment","division":"Heating Equipment","revision":"Rev 2","dateIssued":"2023-09-21","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"ad0b1fc8-c566-4b89-92ea-ea9b468ba82f","number":"2300.001","title":"Cooling Equipment","division":"Cooling Equipment","revision":"Rev 1","dateIssued":"2023-09-22","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"c927c3d4-6c9e-4f9b-8442-4fb7f7b2b88a","number":"2400.001","title":"Electrical Equipment","division":"Electrical Equipment","revision":"Rev 2","dateIssued":"2023-09-23","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"}]},{"id":1802,"name":"Riverdale Estates","city":"San Francisco","address":"123 Main Street","status":"Active","progress":"10%","type":"Commercial","drawings":"http://localhost:8080/Park-George-Drawings.pdf","instructions":[{"id":"fae43bb6-d5d1-4f86-8b15-9a9928d1e19d","number":"520","title":"Renovations in Public Library","createdBy":"Emily Adams","trade":"Construction","dateIssued":"2023-09-07","status":"In Progress","type":"Public","path":"http://localhost:8080/1693374197529_Alex_Negredo.pdf"},{"id":"87b4d623-8ccf-48c7-94f6-e5ae9ce14c14","number":"712","title":"Roof Repairs in Warehouse","createdBy":"John Smith","trade":"Roofing","dateIssued":"2023-09-08","status":"Work Required","type":"Industrial","path":"http://localhost:8080/1693648616531_Template.pdf"},{"id":"9a925d20-9fc2-480a-abba-c088g384d6f0","number":"103","title":"Mechanical Revisions on L2","createdBy":"Dave Macdonald","trade":"Mech Trade","dateIssued":"2023-09-02","status":"Work Required","type":"Commercial","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"10cfd558-97ae-4535-85cb-cd710b2f33e8","number":"105","title":"Electrical Changes from L30 to L45","createdBy":"Teresa Speicher","trade":"Electrical Trade","dateIssued":"2023-09-02","status":"Pending","type":"Residential","path":"http://localhost:8080/1693648616531_Template.pdf"},{"id":"1c7b9e06-50b1-4751-89e9-52786bfecf69","number":"712","title":"Roof Replacement for Residential Complex","createdBy":"Laura Wilson","trade":"Roofing","dateIssued":"2023-08-27","status":"In Progress","type":"Residential","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"f9b18738-7c1e-4b1b-9d91-199874a857e7","number":"409","title":"Interior Renovations in Retail Store","createdBy":"Chris Brown","trade":"Interior Design","dateIssued":"2023-09-03","status":"Work Required","type":"Commercial","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"a76220f0-6a9a-4cd3-95e4-8a10b8e9c557","number":"624","title":"Landscaping in Park","createdBy":"Jennifer Taylor","trade":"Landscaping","dateIssued":"2023-08-29","status":"Completed","type":"Public","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"af89a28a-8e4f-419e-8da7-3a74c101bf14","number":"815","title":"Kitchen Remodel in Residential Home","createdBy":"Daniel White","trade":"Construction","dateIssued":"2023-09-04","status":"In Progress","type":"Residential","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"5ce7c421-8b32-4b9d-9c34-6f83a88a8395","number":"207","title":"Office Partition Installation","createdBy":"Mary Johnson","trade":"Interior Design","dateIssued":"2023-08-31","status":"Completed","type":"Commercial","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"8f2cf8b5-63dd-4426-bdc6-cd3a70d7ebd3","number":"912","title":"Bathroom Renovations in Hotel","createdBy":"David Miller","trade":"Plumbing","dateIssued":"2023-09-06","status":"Work Required","type":"Hospitality","path":"http://localhost:8080/1693645345765_Template.pdf"},{"id":"2c3d4e58-f23a-4d1f-8d84-eb21e9fc7bf4","number":"601","title":"Painting Project in Art Gallery","createdBy":"Susan Johnson","trade":"Painting","dateIssued":"2023-08-26","status":"Completed","type":"Commercial","path":"http://localhost:8080/1693645345765_Template.pdf"}],"specifications":[{"id":"9c1a75f3-4a3c-4ea9-9a9c-98d1f6e6e7a5","number":"1400.001","title":"Elevators","division":"Elevators","revision":"Rev 2","dateIssued":"2023-09","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"50c0ad94-1db1-4e11-baeb-2e4f91300b76","number":"1500.001","title":"HVAC Systems","division":"HVAC","revision":"Rev 1","dateIssued":"2023-09-14","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"b996f1c0-69a3-434b-af1a-0ee3b5abf2d9","number":"1600.001","title":"Security Systems","division":"Security","revision":"Rev 2","dateIssued":"2023-09-15","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"ee841f68-10ea-47f1-9384-e7f596d69a9b","number":"1700.001","title":"Fire Alarm Systems","division":"Fire Alarm","revision":"Rev 1","dateIssued":"2023-09-16","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"01bb8d7c-103c-48b2-a42b-874bded84a3d","number":"1800.001","title":"Communication Systems","division":"Communication","revision":"Rev 2","dateIssued":"2023-09-17","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"2c79d890-1415-45a5-bec4-78e4a369a66a","number":"1900.001","title":"Audiovisual Systems","division":"Audiovisual","revision":"Rev 1","dateIssued":"2023-09-18","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"4e161d9e-845e-4949-9616-d866345a9e8b","number":"2000.001","title":"Plumbing Fixtures","division":"Plumbing Fixtures","revision":"Rev 2","dateIssued":"2023-09-19","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"6c8a1eac-2a85-464e-9f7b-87a6dd719e3e","number":"2100.001","title":"Gas Distribution","division":"Gas Distribution","revision":"Rev 1","dateIssued":"2023-09-20","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"8c08b1ba-1ce5-4cfd-b7cb-2b0fb71a9b5b","number":"2200.001","title":"Heating Equipment","division":"Heating Equipment","revision":"Rev 2","dateIssued":"2023-09-21","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"ad0b1fc8-c566-4b89-92ea-ea9b468ba82f","number":"2300.001","title":"Cooling Equipment","division":"Cooling Equipment","revision":"Rev 1","dateIssued":"2023-09-22","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"},{"id":"c927c3d4-6c9e-4f9b-8442-4fb7f7b2b88a","number":"2400.001","title":"Electrical Equipment","division":"Electrical Equipment","revision":"Rev 2","dateIssued":"2023-09-23","path":"http://localhost:8080/1693374197530_Alex_Negredo.pdf"}]}]
+[
+  {
+    "id": 1800,
+    "name": "Park George",
+    "city": "Seattle",
+    "address": "13768 100 Ave",
+    "status": "Active",
+    "progress": "83%",
+    "type": "Residential",
+    "drawings": "https://planbuild-api-2aa57d725286.herokuapp.com/Park-George-Drawings.pdf",
+    "instructions": [
+      {
+        "id": "f5f3f350-b853-48a6-b5aa-25ceb9641800",
+        "number": "345",
+        "title": "Value Engineering for building envelope",
+        "createdBy": "Arnold Brunn",
+        "trade": "Glazing",
+        "dateIssued": "2023-08-29",
+        "status": "Open",
+        "type": "Residential",
+        "costImpact": "TBD",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197529_Alex_Negredo.pdf"
+      },
+      {
+        "id": "20c491d1-8ce1-4ca7-819d-84c9c89b6f39",
+        "number": "158",
+        "title": "Shaft changes on parkade level P1",
+        "createdBy": "Rhodora Chavez",
+        "trade": "Insulation",
+        "dateIssued": "2023-08-29",
+        "status": "Open",
+        "type": "Residential",
+        "costImpact": "TBD",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693648616531_Template.pdf"
+      },
+      {
+        "id": "9a925d20-9fc2-480a-abba-c0884384d6f0",
+        "number": "836",
+        "title": "Mechanical Revisions on L2",
+        "createdBy": "Dave Macdonald",
+        "trade": "Mechanical",
+        "dateIssued": "2023-09-02",
+        "status": "Work Required",
+        "type": "Commercial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "10cfd558-97ae-4535-85cb-cd710b2f33e8",
+        "number": "004",
+        "title": "Electrical Changes from L30 to L45",
+        "createdBy": "Teresa Speicher",
+        "trade": "Electrical",
+        "dateIssued": "2023-09-02",
+        "status": "Pending",
+        "type": "Residential",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693648616531_Template.pdf"
+      },
+      {
+        "id": "8294b909-7a4e-41cd-95bc-071beac4eedf",
+        "number": "209",
+        "title": "Wall type revisions",
+        "createdBy": "John Rosset",
+        "trade": "Drywall",
+        "dateIssued": "2023-09-04",
+        "status": "In review",
+        "type": "Residential",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693890225062_Template.pdf"
+      },
+      {
+        "id": "9a925d20-9fc2-480a-abba-c0884384r6f0",
+        "number": "103",
+        "title": "Mechanical Revisions on L2",
+        "createdBy": "Dave Macdonald",
+        "trade": "Mechanichal",
+        "dateIssued": "2023-09-02",
+        "status": "Work Required",
+        "type": "Commercial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "7f4d6e30-3f7a-4a49-a458-8e2533b9321d",
+        "number": "215",
+        "title": "Electrical Repairs on Floor 3",
+        "createdBy": "Emily Johnson",
+        "trade": "Electrical",
+        "dateIssued": "2023-08-28",
+        "status": "In Progress",
+        "type": "Commercial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "3b9d823d-7a90-4e7e-bcd6-93573c5a7c9a",
+        "number": "301",
+        "title": "Plumbing Upgrades in Kitchen",
+        "createdBy": "Michael Smith",
+        "trade": "Plumbing",
+        "dateIssued": "2023-09-05",
+        "status": "Work Required",
+        "type": "Residential",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "e9b68c74-fa77-4ea2-8d49-f9c18e2d1a9f",
+        "number": "128",
+        "title": "HVAC Maintenance in Office Building",
+        "createdBy": "Sarah Davis",
+        "trade": "HVAC",
+        "dateIssued": "2023-08-30",
+        "status": "Completed",
+        "type": "Commercial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "c24d3f9a-5b82-42a3-baa5-9ff8d31a8895",
+        "number": "502",
+        "title": "Structural Repairs on Bridge",
+        "createdBy": "John Anderson",
+        "trade": "Civil Engineering",
+        "dateIssued": "2023-09-01",
+        "status": "Work Required",
+        "type": "Industrial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "93a8c9ef-7f14-4aac-91f7-dccfc6b72b28",
+        "number": "1008",
+        "title": "1008",
+        "createdBy": "1008",
+        "trade": "1008",
+        "dateIssued": "2023-09-09",
+        "status": "1008",
+        "type": "",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1694282520828_mockup 02.pdf"
+      },
+      {
+        "id": "bcde483c-e02f-476d-b50f-2f18237333fb",
+        "number": "555",
+        "title": "555",
+        "createdBy": "555",
+        "trade": "555",
+        "dateIssued": "2023-09-14",
+        "status": "555",
+        "type": "555",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1694740313289_mockup 02.pdf"
+      }
+    ],
+    "specifications": [
+      {
+        "id": "f5f3f350-b853-48a6-b5ba-18ceb9641800",
+        "number": "100.001",
+        "title": "Gypsum Board",
+        "division": "Finishes",
+        "revision": "Rev 2",
+        "dateIssued": "2023-08-29",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "f5f3f150-b855-48a6-b5ba-21ceb96407d6",
+        "number": "100.002",
+        "title": "Fibre Glass Foam",
+        "division": "Insulation",
+        "revision": "Rev 5",
+        "dateIssued": "2023-08-29",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197531_Alex_Negredo.pdf"
+      },
+      {
+        "id": "8d48e182-7e18-4a82-8bb6-025f04962c70",
+        "number": "100.002",
+        "title": "Ceramic Tile",
+        "division": "Finishes",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-01",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "b9cd920a-82c5-4e09-a5a8-124bc1f6be23",
+        "number": "200.001",
+        "title": "Concrete Foundations",
+        "division": "Concrete",
+        "revision": "Rev 3",
+        "dateIssued": "2023-09-02",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "19d153a4-5b2e-45b9-953e-1d60d9d7d21f",
+        "number": "300.001",
+        "title": "Structural Steel",
+        "division": "Metals",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-03",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "4fde0f5e-5f12-4c11-bf6a-2ad72ed61e9f",
+        "number": "400.001",
+        "title": "Wood Framing",
+        "division": "Wood and Composites",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-04",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "aa4e58c7-794e-4fb4-b7ec-2f937bf19f0e",
+        "number": "500.001",
+        "title": "Thermal Insulation",
+        "division": "Moisture Protection",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-05",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "6abcb801-0f0d-48e9-b4ca-3d5403f9a1f2",
+        "number": "600.001",
+        "title": "Fire Protection",
+        "division": "Fire Suppression",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-06",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "8ea9e4c0-50a0-43f1-b7d0-45731ad24a1b",
+        "number": "700.001",
+        "title": "Exterior Finish",
+        "division": "Exterior Finish",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-07",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      }
+    ]
+  },
+  {
+    "id": 1801,
+    "name": "Emerald Gardens",
+    "city": "Vancouver",
+    "address": "1111 Barclay St",
+    "status": "Active",
+    "progress": "52%",
+    "type": "Residential",
+    "drawings": "https://planbuild-api-2aa57d725286.herokuapp.com/Park-George-Drawings.pdf",
+    "instructions": [
+      {
+        "id": "fae43bb6-d5d1-4f86-8b15-9a9928d1e19d",
+        "number": "520",
+        "title": "Renovations in Public Library",
+        "createdBy": "Emily Adams",
+        "trade": "Construction",
+        "dateIssued": "2023-09-07",
+        "status": "In Progress",
+        "type": "Public",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197529_Alex_Negredo.pdf"
+      },
+      {
+        "id": "87b4d623-8ccf-48c7-94f6-e5ae9ce14c14",
+        "number": "712",
+        "title": "Roof Repairs in Warehouse",
+        "createdBy": "John Smith",
+        "trade": "Roofing",
+        "dateIssued": "2023-09-08",
+        "status": "Work Required",
+        "type": "Industrial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693648616531_Template.pdf"
+      },
+      {
+        "id": "9a925d20-9fc2-480a-abba-c088g384d6f0",
+        "number": "103",
+        "title": "Mechanical Revisions on L2",
+        "createdBy": "Dave Macdonald",
+        "trade": "Mech Trade",
+        "dateIssued": "2023-09-02",
+        "status": "Work Required",
+        "type": "Commercial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "10cfd558-97ae-4535-85cb-cd710b2f33e8",
+        "number": "105",
+        "title": "Electrical Changes from L30 to L45",
+        "createdBy": "Teresa Speicher",
+        "trade": "Electrical Trade",
+        "dateIssued": "2023-09-02",
+        "status": "Pending",
+        "type": "Residential",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693648616531_Template.pdf"
+      },
+      {
+        "id": "1c7b9e06-50b1-4751-89e9-52786bfecf69",
+        "number": "712",
+        "title": "Roof Replacement for Residential Complex",
+        "createdBy": "Laura Wilson",
+        "trade": "Roofing",
+        "dateIssued": "2023-08-27",
+        "status": "In Progress",
+        "type": "Residential",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "f9b18738-7c1e-4b1b-9d91-199874a857e7",
+        "number": "409",
+        "title": "Interior Renovations in Retail Store",
+        "createdBy": "Chris Brown",
+        "trade": "Interior Design",
+        "dateIssued": "2023-09-03",
+        "status": "Work Required",
+        "type": "Commercial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "a76220f0-6a9a-4cd3-95e4-8a10b8e9c557",
+        "number": "624",
+        "title": "Landscaping in Park",
+        "createdBy": "Jennifer Taylor",
+        "trade": "Landscaping",
+        "dateIssued": "2023-08-29",
+        "status": "Completed",
+        "type": "Public",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "af89a28a-8e4f-419e-8da7-3a74c101bf14",
+        "number": "815",
+        "title": "Kitchen Remodel in Residential Home",
+        "createdBy": "Daniel White",
+        "trade": "Construction",
+        "dateIssued": "2023-09-04",
+        "status": "In Progress",
+        "type": "Residential",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "5ce7c421-8b32-4b9d-9c34-6f83a88a8395",
+        "number": "207",
+        "title": "Office Partition Installation",
+        "createdBy": "Mary Johnson",
+        "trade": "Interior Design",
+        "dateIssued": "2023-08-31",
+        "status": "Completed",
+        "type": "Commercial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "8f2cf8b5-63dd-4426-bdc6-cd3a70d7ebd3",
+        "number": "912",
+        "title": "Bathroom Renovations in Hotel",
+        "createdBy": "David Miller",
+        "trade": "Plumbing",
+        "dateIssued": "2023-09-06",
+        "status": "Work Required",
+        "type": "Hospitality",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "2c3d4e58-f23a-4d1f-8d84-eb21e9fc7bf4",
+        "number": "601",
+        "title": "Painting Project in Art Gallery",
+        "createdBy": "Susan Johnson",
+        "trade": "Painting",
+        "dateIssued": "2023-08-26",
+        "status": "Completed",
+        "type": "Commercial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      }
+    ],
+    "specifications": [
+      {
+        "id": "9c1a75f3-4a3c-4ea9-9a9c-98d1f6e6e7a5",
+        "number": "1400.001",
+        "title": "Elevators",
+        "division": "Elevators",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-13",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "50c0ad94-1db1-4e11-baeb-2e4f91300b76",
+        "number": "1500.001",
+        "title": "HVAC Systems",
+        "division": "HVAC",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-14",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "b996f1c0-69a3-434b-af1a-0ee3b5abf2d9",
+        "number": "1600.001",
+        "title": "Security Systems",
+        "division": "Security",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-15",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "ee841f68-10ea-47f1-9384-e7f596d69a9b",
+        "number": "1700.001",
+        "title": "Fire Alarm Systems",
+        "division": "Fire Alarm",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-16",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "01bb8d7c-103c-48b2-a42b-874bded84a3d",
+        "number": "1800.001",
+        "title": "Communication Systems",
+        "division": "Communication",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-17",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "2c79d890-1415-45a5-bec4-78e4a369a66a",
+        "number": "1900.001",
+        "title": "Audiovisual Systems",
+        "division": "Audiovisual",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-18",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "4e161d9e-845e-4949-9616-d866345a9e8b",
+        "number": "2000.001",
+        "title": "Plumbing Fixtures",
+        "division": "Plumbing Fixtures",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-19",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "6c8a1eac-2a85-464e-9f7b-87a6dd719e3e",
+        "number": "2100.001",
+        "title": "Gas Distribution",
+        "division": "Gas Distribution",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-20",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "8c08b1ba-1ce5-4cfd-b7cb-2b0fb71a9b5b",
+        "number": "2200.001",
+        "title": "Heating Equipment",
+        "division": "Heating Equipment",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-21",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "ad0b1fc8-c566-4b89-92ea-ea9b468ba82f",
+        "number": "2300.001",
+        "title": "Cooling Equipment",
+        "division": "Cooling Equipment",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-22",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "c927c3d4-6c9e-4f9b-8442-4fb7f7b2b88a",
+        "number": "2400.001",
+        "title": "Electrical Equipment",
+        "division": "Electrical Equipment",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-23",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      }
+    ]
+  },
+  {
+    "id": 1802,
+    "name": "Riverdale Estates",
+    "city": "San Francisco",
+    "address": "123 Main Street",
+    "status": "Active",
+    "progress": "10%",
+    "type": "Commercial",
+    "drawings": "https://planbuild-api-2aa57d725286.herokuapp.com/Park-George-Drawings.pdf",
+    "instructions": [
+      {
+        "id": "fae43bb6-d5d1-4f86-8b15-9a9928d1e19d",
+        "number": "520",
+        "title": "Renovations in Public Library",
+        "createdBy": "Emily Adams",
+        "trade": "Construction",
+        "dateIssued": "2023-09-07",
+        "status": "In Progress",
+        "type": "Public",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197529_Alex_Negredo.pdf"
+      },
+      {
+        "id": "87b4d623-8ccf-48c7-94f6-e5ae9ce14c14",
+        "number": "712",
+        "title": "Roof Repairs in Warehouse",
+        "createdBy": "John Smith",
+        "trade": "Roofing",
+        "dateIssued": "2023-09-08",
+        "status": "Work Required",
+        "type": "Industrial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693648616531_Template.pdf"
+      },
+      {
+        "id": "9a925d20-9fc2-480a-abba-c088g384d6f0",
+        "number": "103",
+        "title": "Mechanical Revisions on L2",
+        "createdBy": "Dave Macdonald",
+        "trade": "Mech Trade",
+        "dateIssued": "2023-09-02",
+        "status": "Work Required",
+        "type": "Commercial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "10cfd558-97ae-4535-85cb-cd710b2f33e8",
+        "number": "105",
+        "title": "Electrical Changes from L30 to L45",
+        "createdBy": "Teresa Speicher",
+        "trade": "Electrical Trade",
+        "dateIssued": "2023-09-02",
+        "status": "Pending",
+        "type": "Residential",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693648616531_Template.pdf"
+      },
+      {
+        "id": "1c7b9e06-50b1-4751-89e9-52786bfecf69",
+        "number": "712",
+        "title": "Roof Replacement for Residential Complex",
+        "createdBy": "Laura Wilson",
+        "trade": "Roofing",
+        "dateIssued": "2023-08-27",
+        "status": "In Progress",
+        "type": "Residential",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "f9b18738-7c1e-4b1b-9d91-199874a857e7",
+        "number": "409",
+        "title": "Interior Renovations in Retail Store",
+        "createdBy": "Chris Brown",
+        "trade": "Interior Design",
+        "dateIssued": "2023-09-03",
+        "status": "Work Required",
+        "type": "Commercial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "a76220f0-6a9a-4cd3-95e4-8a10b8e9c557",
+        "number": "624",
+        "title": "Landscaping in Park",
+        "createdBy": "Jennifer Taylor",
+        "trade": "Landscaping",
+        "dateIssued": "2023-08-29",
+        "status": "Completed",
+        "type": "Public",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "af89a28a-8e4f-419e-8da7-3a74c101bf14",
+        "number": "815",
+        "title": "Kitchen Remodel in Residential Home",
+        "createdBy": "Daniel White",
+        "trade": "Construction",
+        "dateIssued": "2023-09-04",
+        "status": "In Progress",
+        "type": "Residential",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "5ce7c421-8b32-4b9d-9c34-6f83a88a8395",
+        "number": "207",
+        "title": "Office Partition Installation",
+        "createdBy": "Mary Johnson",
+        "trade": "Interior Design",
+        "dateIssued": "2023-08-31",
+        "status": "Completed",
+        "type": "Commercial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "8f2cf8b5-63dd-4426-bdc6-cd3a70d7ebd3",
+        "number": "912",
+        "title": "Bathroom Renovations in Hotel",
+        "createdBy": "David Miller",
+        "trade": "Plumbing",
+        "dateIssued": "2023-09-06",
+        "status": "Work Required",
+        "type": "Hospitality",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      },
+      {
+        "id": "2c3d4e58-f23a-4d1f-8d84-eb21e9fc7bf4",
+        "number": "601",
+        "title": "Painting Project in Art Gallery",
+        "createdBy": "Susan Johnson",
+        "trade": "Painting",
+        "dateIssued": "2023-08-26",
+        "status": "Completed",
+        "type": "Commercial",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693645345765_Template.pdf"
+      }
+    ],
+    "specifications": [
+      {
+        "id": "9c1a75f3-4a3c-4ea9-9a9c-98d1f6e6e7a5",
+        "number": "1400.001",
+        "title": "Elevators",
+        "division": "Elevators",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "50c0ad94-1db1-4e11-baeb-2e4f91300b76",
+        "number": "1500.001",
+        "title": "HVAC Systems",
+        "division": "HVAC",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-14",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "b996f1c0-69a3-434b-af1a-0ee3b5abf2d9",
+        "number": "1600.001",
+        "title": "Security Systems",
+        "division": "Security",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-15",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "ee841f68-10ea-47f1-9384-e7f596d69a9b",
+        "number": "1700.001",
+        "title": "Fire Alarm Systems",
+        "division": "Fire Alarm",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-16",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "01bb8d7c-103c-48b2-a42b-874bded84a3d",
+        "number": "1800.001",
+        "title": "Communication Systems",
+        "division": "Communication",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-17",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "2c79d890-1415-45a5-bec4-78e4a369a66a",
+        "number": "1900.001",
+        "title": "Audiovisual Systems",
+        "division": "Audiovisual",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-18",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "4e161d9e-845e-4949-9616-d866345a9e8b",
+        "number": "2000.001",
+        "title": "Plumbing Fixtures",
+        "division": "Plumbing Fixtures",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-19",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "6c8a1eac-2a85-464e-9f7b-87a6dd719e3e",
+        "number": "2100.001",
+        "title": "Gas Distribution",
+        "division": "Gas Distribution",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-20",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "8c08b1ba-1ce5-4cfd-b7cb-2b0fb71a9b5b",
+        "number": "2200.001",
+        "title": "Heating Equipment",
+        "division": "Heating Equipment",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-21",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "ad0b1fc8-c566-4b89-92ea-ea9b468ba82f",
+        "number": "2300.001",
+        "title": "Cooling Equipment",
+        "division": "Cooling Equipment",
+        "revision": "Rev 1",
+        "dateIssued": "2023-09-22",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      },
+      {
+        "id": "c927c3d4-6c9e-4f9b-8442-4fb7f7b2b88a",
+        "number": "2400.001",
+        "title": "Electrical Equipment",
+        "division": "Electrical Equipment",
+        "revision": "Rev 2",
+        "dateIssued": "2023-09-23",
+        "path": "https://planbuild-api-2aa57d725286.herokuapp.com/1693374197530_Alex_Negredo.pdf"
+      }
+    ]
+  }
+]

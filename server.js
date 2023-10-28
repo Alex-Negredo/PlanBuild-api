@@ -164,7 +164,7 @@ app.post('/projects/:projectId/instructions', upload.single('file'), (req, res) 
             dateIssued: new Date().toLocaleDateString(),
             status: req.body.status,
             type: req.body.type,
-            path: `http://localhost:8080/${req.file.filename}`
+            path: `https://planbuild-api-2aa57d725286.herokuapp.com/${req.file.filename}`
         }
 
         selectedProject.instructions.push(newInstruction);
