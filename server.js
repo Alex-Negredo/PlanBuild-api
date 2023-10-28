@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const port = 8080;
+// const port = 8080;
 const multer = require('multer');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
@@ -182,10 +182,11 @@ app.post('/projects/:projectId/instructions', upload.single('file'), (req, res) 
 
 
 
+// app.listen(port, () => {
+//     console.log(`Server is running on port ${port}`);
+// });
 
-
-
-
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+    console.log(`Server has started on PORT ${PORT} 🥸`);
 });
