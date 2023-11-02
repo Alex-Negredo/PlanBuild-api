@@ -25,7 +25,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({storage})
 
-app.get('/', (req, res) => {
+app.get('/planbuild', (req, res) => {
     res.send('<h1>Alex Server</h1>')
 })
 
