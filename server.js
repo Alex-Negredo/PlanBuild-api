@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 })
 
 // Get all the projects OK
-app.get('/projects', (req, res) => {
+app.get('/planbuild/projects', (req, res) => {
     fs.readFile('./data/projects.json', 'utf8', (err, data) => {
         if (err) {
             console.error('Error reading projects:', err);
@@ -43,7 +43,7 @@ app.get('/projects', (req, res) => {
 })
 
 // Get a single project by ID OK
-app.get('/projects/:projectId', (req, res) => {
+app.get('/planbuild/projects/:projectId', (req, res) => {
     fs.readFile('./data/projects.json', 'utf8', (err, data) => {
         if(err) {
             return res.send("error getting project with id" + req.params.projectId);
@@ -56,7 +56,7 @@ app.get('/projects/:projectId', (req, res) => {
 })
 
 // Get all the instructions from a single project OK
-app.get('/projects/:projectId/instructions', (req, res) => {
+app.get('/planbuild/projects/:projectId/instructions', (req, res) => {
     fs.readFile('./data/projects.json', 'utf8', (err, data) => {
         if (err) {
           console.error('Error reading the file:', err);
@@ -74,7 +74,7 @@ app.get('/projects/:projectId/instructions', (req, res) => {
 })
 
 // Get a single instruction from a single project
-app.get('/projects/:projectId/instructions/:instructionId', (req, res) => {
+app.get('/planbuild/projects/:projectId/instructions/:instructionId', (req, res) => {
     fs.readFile('./data/projects.json', 'utf8', (err, data) => {
         if (err) {
           console.error('Error reading the file:', err);
@@ -93,7 +93,7 @@ app.get('/projects/:projectId/instructions/:instructionId', (req, res) => {
 })
 
 // Get all the spces from a single project
-app.get('/projects/:projectId/specifications', (req, res) => {
+app.get('/planbuild/projects/:projectId/specifications', (req, res) => {
     fs.readFile('./data/projects.json', 'utf8', (err, data) => {
         if (err) {
           console.error('Error reading the file:', err);
@@ -111,7 +111,7 @@ app.get('/projects/:projectId/specifications', (req, res) => {
 })
 
 // Get a single spec from a single project
-app.get('/projects/:projectId/specifications/:specificationId', (req, res) => {
+app.get('/planbuild/projects/:projectId/specifications/:specificationId', (req, res) => {
     fs.readFile('./data/projects.json', 'utf8', (err, data) => {
         if (err) {
           console.error('Error reading the file:', err);
@@ -143,7 +143,7 @@ app.get('/public', (req, res) => {
 
 
 // Post a new instruction
-app.post('/projects/:projectId/instructions', upload.single('file'), (req, res) => {
+app.post('/planbuild/projects/:projectId/instructions', upload.single('file'), (req, res) => {
     const projectId = req.params.projectId;
 
     fs.readFile('./data/projects.json', 'utf8', (err, data) => {
